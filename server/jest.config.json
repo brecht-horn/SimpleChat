@@ -1,0 +1,8 @@
+{
+  "moduleNameMapper": {
+    "^image![a-zA-Z0-9$_-]+$": "GlobalImageStub",
+    "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|css)$": "jest-transform-stub"
+  },
+  "transformIgnorePatterns": ["node_modules/(?!axios)"],
+  "preset": "@shelf/jest-mongodb"
+}
